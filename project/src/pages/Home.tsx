@@ -150,30 +150,37 @@ export default function Home() {
 
   return (
     <div className="relative">
-      <section className="relative min-h-[90vh] flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-500/5 to-transparent pointer-events-none" />
-        <div className="max-w-5xl mx-auto text-center relative z-10">
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-8 leading-tight">
-            <span className="block text-slate-100 mb-3">
+        <div className="max-w-4xl mx-auto text-center relative z-10 fade-in-section py-16">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-12 leading-relaxed">
+            <span className="block text-slate-100 mb-6">
               We design and deploy AI Systems
             </span>
             <span className="block bg-gradient-to-r from-cyan-400 via-blue-400 to-cyan-300 bg-clip-text text-transparent">
               That Remove Operational Bottlenecks
             </span>
           </h1>
-          <p className="text-xl sm:text-2xl text-slate-300 mb-6 leading-relaxed max-w-4xl mx-auto">
+
+          <p className="text-xl sm:text-2xl text-slate-300 mb-10 leading-relaxed max-w-3xl mx-auto">
             You Keep Them Only If They Prove Value.
           </p>
-          <p className="text-lg text-slate-400 mb-6 leading-relaxed max-w-3xl mx-auto">
-            Coreflow Automation is an <span className="font-semibold text-slate-300">AI automation agency</span> that designs, deploys, and temporarily operates <span className="font-semibold text-slate-300">outcome-driven AI systems</span> inside real businesses. These systems automate specific operational outcomes across sales operations, customer support, inbound communication, and internal workflows.
-          </p>
-          <p className="text-lg text-slate-300 mb-8 leading-relaxed max-w-3xl mx-auto">
-            These systems are <span className="font-semibold text-cyan-400">deployed for a fixed period</span>, <span className="font-semibold text-cyan-400">logged</span>, and <span className="font-semibold text-cyan-400">measured</span>.
-          </p>
-          <p className="text-lg text-slate-300 mb-12 leading-relaxed max-w-3xl mx-auto">
-            If the outcome doesn't justify keeping them, they are removed.
-          </p>
-          <p className="text-xl font-semibold text-cyan-400 mb-12">
+
+          <div className="space-y-8 mb-12 max-w-3xl mx-auto">
+            <p className="text-base text-slate-400 leading-loose">
+              Coreflow Automation is an <span className="font-semibold text-slate-300">AI automation agency</span> that designs, deploys, and temporarily operates <span className="font-semibold text-slate-300">outcome-driven AI systems</span> inside real businesses. These systems automate specific operational outcomes across sales operations, customer support, inbound communication, and internal workflows.
+            </p>
+
+            <p className="text-base text-slate-300 leading-loose">
+              These systems are <span className="font-semibold text-cyan-400">deployed for a fixed period</span>, <span className="font-semibold text-cyan-400">logged</span>, and <span className="font-semibold text-cyan-400">measured</span>.
+            </p>
+
+            <p className="text-base text-slate-300 leading-loose">
+              If the outcome doesn't justify keeping them, they are removed.
+            </p>
+          </div>
+
+          <p className="text-lg font-semibold text-cyan-400 mb-14">
             No long-term commitment. No blind trust. No hype.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -194,10 +201,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative py-24 px-4 sm:px-6 lg:px-8">
+      <section className="relative py-24 px-4 sm:px-6 lg:px-8 fade-in-section">
         <div className="max-w-4xl mx-auto">
           <div className="bg-slate-900/30 backdrop-blur-sm border border-cyan-500/20 rounded-2xl p-8 sm:p-12 shadow-xl shadow-cyan-500/5">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-slate-100">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-slate-100">
               This Is Not About AI Tools
             </h2>
             <p className="text-lg text-slate-300 mb-6 leading-relaxed">
@@ -224,9 +231,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative py-24 px-4 sm:px-6 lg:px-8">
+      <section className="relative py-24 px-4 sm:px-6 lg:px-8 fade-in-section">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center text-slate-100">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-10 text-center text-slate-100">
             The Real Bottleneck Is Not Your Team
           </h2>
           <p className="text-lg text-slate-300 mb-12 text-center max-w-3xl mx-auto leading-relaxed">
@@ -268,9 +275,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative py-24 px-4 sm:px-6 lg:px-8 bg-slate-900/20">
+      <section className="relative py-24 px-4 sm:px-6 lg:px-8 bg-slate-900/20 fade-in-section">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center text-slate-100">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-10 text-center text-slate-100">
             What These Systems Take Over
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 max-w-4xl mx-auto">
@@ -290,9 +297,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative py-24 px-4 sm:px-6 lg:px-8">
+      <section className="relative py-24 px-4 sm:px-6 lg:px-8 fade-in-section">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center text-slate-100">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-10 text-center text-slate-100">
             What We Operate
           </h2>
           <p className="text-lg text-slate-300 mb-12 text-center max-w-3xl mx-auto leading-relaxed">
@@ -326,10 +333,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative py-24 px-4 sm:px-6 lg:px-8 bg-slate-900/20">
+      <section className="relative py-24 px-4 sm:px-6 lg:px-8 bg-slate-900/20 fade-in-section">
         <div className="max-w-4xl mx-auto">
           <div className="bg-gradient-to-br from-slate-900/50 to-slate-800/30 backdrop-blur-sm border border-yellow-500/30 rounded-2xl p-8 sm:p-12 shadow-xl shadow-yellow-500/5">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-slate-100">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-slate-100">
               The Common Mistake
             </h2>
             <p className="text-lg text-slate-300 mb-6 leading-relaxed">
@@ -353,9 +360,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative py-24 px-4 sm:px-6 lg:px-8">
+      <section className="relative py-24 px-4 sm:px-6 lg:px-8 fade-in-section">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-16 text-center text-slate-100">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-16 text-center text-slate-100">
             How It Works
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
@@ -435,9 +442,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative py-24 px-4 sm:px-6 lg:px-8 bg-slate-900/20">
+      <section className="relative py-24 px-4 sm:px-6 lg:px-8 bg-slate-900/20 fade-in-section">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center text-slate-100">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-10 text-center text-slate-100">
             Why This Works
           </h2>
           <p className="text-lg text-slate-300 mb-12 text-center leading-relaxed">
@@ -471,9 +478,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative py-24 px-4 sm:px-6 lg:px-8">
+      <section className="relative py-24 px-4 sm:px-6 lg:px-8 fade-in-section">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center text-slate-100">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-12 text-center text-slate-100">
             Who This Is For
           </h2>
           <p className="text-lg text-slate-300 mb-8 text-center leading-relaxed">
@@ -498,9 +505,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative py-24 px-4 sm:px-6 lg:px-8 bg-slate-900/20">
+      <section className="relative py-24 px-4 sm:px-6 lg:px-8 bg-slate-900/20 fade-in-section">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-slate-100">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-10 text-slate-100">
             AI Automation Is Becoming Infrastructure
           </h2>
           <p className="text-lg text-slate-300 mb-6 leading-relaxed">
@@ -525,9 +532,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative py-24 px-4 sm:px-6 lg:px-8">
+      <section className="relative py-24 px-4 sm:px-6 lg:px-8 fade-in-section">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-16 text-center text-slate-100">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-16 text-center text-slate-100">
             FAQs
           </h2>
           <div className="space-y-6">

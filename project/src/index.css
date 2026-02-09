@@ -11,6 +11,21 @@
     @apply antialiased;
   }
 
+  * {
+    scroll-behavior: smooth;
+  }
+
+  .fade-in-section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  }
+
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
   @media (max-width: 640px) {
     body {
       font-size: 16px;

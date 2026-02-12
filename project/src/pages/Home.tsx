@@ -153,11 +153,11 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-500/5 to-transparent pointer-events-none" />
         <div className="max-w-4xl mx-auto text-center relative z-10 fade-in-section py-16">
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-12 leading-relaxed">
-            <span className="block text-slate-100 mb-6">
+          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold mb-12 leading-relaxed bg-gradient-to-r from-cyan-400 via-blue-400 to-cyan-300 bg-clip-text text-transparent">
+            <span className="block mb-6">
               We design and deploy AI Systems
             </span>
-            <span className="block bg-gradient-to-r from-cyan-400 via-blue-400 to-cyan-300 bg-clip-text text-transparent">
+            <span className="block">
               That Remove Operational Bottlenecks
             </span>
           </h1>

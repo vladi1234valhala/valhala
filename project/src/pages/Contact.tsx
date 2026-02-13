@@ -78,9 +78,6 @@ export default function Contact() {
 
               <div className="border-t border-cyan-500/20 pt-8">
                 <p className="text-lg text-slate-300 leading-relaxed mb-8">
-                  Our contact form is temporarily unavailable.
-                </p>
-                <p className="text-lg text-slate-300 leading-relaxed mb-8">
                   To continue, please <span className="font-semibold text-cyan-400">book a call directly through our calendar</span>.
                 </p>
               </div>

@@ -95,12 +95,6 @@ export default function Contact() {
                 Book a Call
               </a>
 
-              <div className="bg-cyan-500/5 border border-cyan-500/20 rounded-lg p-4">
-                <p className="text-sm text-slate-300 leading-relaxed">
-                  <span className="font-semibold text-cyan-400">Important:</span> When booking the call, please enter your <span className="font-semibold">phone number in the "Last Name" field</span> so we can call you by phone at the scheduled time.
-                </p>
-              </div>
-
               <div>
                 <p className="text-slate-300 leading-relaxed">
                   After booking, you can send any additional details, documents, or questions to:{' '}

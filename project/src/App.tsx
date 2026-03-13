@@ -9,6 +9,7 @@ import GrowthFramework from './pages/GrowthFramework';
 import Contact from './pages/Contact';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
+import Pay from './pages/Pay';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/terms" element={<Terms />} />
+          <Route path="/pay" element={<Pay />} />
         </Routes>
       </Layout>
     </BrowserRouter>
